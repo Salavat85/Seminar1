@@ -70,5 +70,10 @@ Console.WriteLine($"Число {num} является не четным");
 
 Console.WriteLine("Введите число");
  int num = Convert.ToInt32(Console.ReadLine());
-if (num % 2 == 0)
+int i=2;
+if (num >= i )
+{
+i= i+2
+Console.Write("{i} ");
+}
 Console.Write("Число {num} является четным");
